@@ -9,6 +9,13 @@ This is an *automated* VPN that uses **CefSharp** (to bot servers) on Windows Fo
 
 Every server that is created using the bot lasts **4 days**, and the VPN will save that information in case you try to connect to the same location after 4 days (which by then the server would have expired, and the VPN would have to re-create a server). The VPN only creates servers when you don't already have a server (which is active) saved on your computer (via a .conf file in your **%AppData%**).
 
+### When attempting to connect, the following process occurs:
+
+if .conf file doesn't exist -> Create server -> Download .conf file -> ~~connect~~ **(CONNECTION NOT IMPLEMENTED YET. [Learn more](https://github.com/voidZiAD/LUMINET/blob/main/WhyIsWireGuardNotImplementedYet.md))**\
+if .conf file exists -> Check how many days ago the server was created -> if server is still valid -> ~~connect~~ **(CONNECTION NOT IMPLEMENTED YET. [Learn more](https://github.com/voidZiAD/LUMINET/blob/main/WhyIsWireGuardNotImplementedYet.md))**
+
+
+
 ## What is finished/not finished:
 
 - ✅ Automation (using [sshs8 servers](https://sshs8.com/) && [CefSharp](https://cefsharp.github.io))
