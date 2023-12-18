@@ -34,6 +34,66 @@ if .conf file exists -> Check how many days ago the server was created -> if ser
 - ✅ Rapid reconnection
 - 🔐 High security
 
+## Future Location Additions:
+
+- 🔓 No Captcha:
+  - United States (USA) from [sshOcean](https://sshocean.com/)
+- 🔐 With Captcha (all from [vpnjantit](https://www.vpnjantit.com/)):
+  - Asia Locations:
+      - Azerbaijan
+      - Bahrain
+      - Bangladesh
+      - Cambodia
+      - Hong Kong
+      - India
+      - Indonesia
+      - Japan
+      - Kazakhstan
+      - Malaysia
+      - Pakistan
+      - Philippines
+      - Saudi Arabia
+      - Singapore
+      - South Korea
+      - Thailand
+      - Turkey
+      - United Arab Emirates
+      - Vietnam
+  - Europe Locations:
+      - Belgium
+      - Bulgaria
+      - Czech Republic
+      - Estonia
+      - Finland
+      - France
+      - Germany
+      - Hungary
+      - Ireland
+      - Italy
+      - Luxembourg
+      - Moldova
+      - Netherlands
+      - Poland
+      - Portugal
+      - Romania
+      - Russia
+      - Spain
+      - Sweden
+      - Switzerland
+      - Ukraine
+      - United Kingdom
+  - America Locations:
+      - Argentina
+      - Brazil
+      - Canada
+      - Chile
+      - Mexico
+      - United States
+  - Other:
+      - Australia
+
+All those locations will be available, hopefully for **free** depending on if this VPN is still cost-free to finish on our side or not. I will be working to assure that we can bypass captcha on the WireGuard servers site in order to allow more locations to be accessed on the VPN. However, my main focus right now is to integrate WireGuard with C#, as that's currently the hardest thing to do on this project considering there are no reference Libraries or code anywhere on the internet that allows WireGuard to be integrated with C#.
+
 # Contribution
 
 I would greatly appreciate any form of contribution if it benefits the project. This is a non-profit project created to make VPNs easier to use, cost-free, fast, secure, and automated.
